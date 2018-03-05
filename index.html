@@ -1,8 +1,306 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Testing</h1>
-    <p>Just testing out GitHub-hosted pages.</p>
-    <p>For more information about me, visit my site at Brown [<a href="http://www.cs.brown.edu/people/steveg">http://www.cs.brown.edu/people/steveg</a>] or follow me on Twitter [<a href="http://twitter.com/steveg_cs">@steveg_cs</a>].</p>
-  </body>
-</html>
+<html lang="en">
+<head>
+  <meta name="author" content="Steven R. Gomez" />
+  <meta name="description" content="Academic Page of Steven R. Gomez" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steven R. Gomez</title>
+        
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  
+  <link href="css/jumbotron-narrow.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300italic' rel='stylesheet' type='text/css'>
+        
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <!-- Selecting default tab from url -->
+  <script>
+  function selectTab() {
+    var id = window.location.href.split('#')[1];
+    var defaultTab = 'about'
+    if (id) {
+      id = id.replace(/\//,'');
+    } else {
+      id = defaultTab;
+    }
+    $("#tabs a[href=#"+id+"]").tab('show');
+  }
+  </script>
+  </head>
+    
+  <body onload="selectTab();">
+    <div class="container">
+      <div class="header">
+        <nav>
+            <ul class="nav nav-pills pull-right redpill" id="tabs">
+              <li><a href="#about" data-toggle="tab">about</a></li>
+              <li><a href="#research" data-toggle="tab">research</a></li>
+              <!-- <li><a href="#resources" data-toggle="tab">resources</a></li> -->
+            </ul>
+            <h2>Steven R. Gomez</h2>
+        </nav>
+      </div>
+        
+      <div class="tab-content">
+        <div class="tab-pane" id="about">
+          <div class="col-lg-12">
+            <div class="media">
+              <div class="media-right pull-right effect">
+                <img src="images/faces_2013/face_full_short.png" class="image hidden-xs" width="200px">
+              </div>
+              <div class="media-left">
+                <h3>Contact</h3>
+                <br />
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> first.last AT ll.mit.edu
+                <br />
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <a href="https://twitter.com/steveg_cs">@steveg_cs</a>
+                <br />
+                <a href="http://www.mit.edu">Massachusetts Institute of Technology</a>
+                <br />
+                <a href="http://www.ll.mit.edu">Lincoln Laboratory</a>
+              </div>
+            </div>
+          </div>
+              
+          <div class="col-lg-12">
+            <h3>
+              About
+            </h3>
+            <p>
+              I am a technical staff member at <a href="http://www.mit.edu">MIT</a>'s <a href="http://www.ll.mit.edu">Lincoln Lab</a> researching visual analytics for cybersecurity. I am interested in building and evaluating tools that augment human reasoning about complex data. My other interests include decision-support tools, automated and semi-automated decision systems, crowdsourcing, behavioral science, and design.
+            </p>
+            <p>
+              I recently finished my PhD at Brown University in computer science and data visualization under the supervision of <a href="http://www.cs.brown.edu/~dhl">David H. Laidlaw</a>. I received a ScM degree from Brown in computer science in 2011. Before coming to Brown, I was a software engineer in New Hampshire. In 2007, I received a BA in computer science from <a href="http://www.dartmouth.edu">Dartmouth College</a>.
+            </p>
+            
+            <h3>
+              News
+            </h3>
+            <ul>
+              <li>Hua Guo presented our work on insights/interaction logs at IEEE VAST in Chicago (<em>Oct '15</em>)</li>
+              <ul>
+                <li>Received a Best Paper Honorable Mention award for our VAST paper!</li>
+              </ul>
+              <li>BostonVIS Workshop at Tufts VALT (<em>Oct '15</em>)</li>
+              <li>Joined the Technical Staff at MIT Lincoln Laboratory (<em>Oct '15</em>)</li>
+              <li>Thesis defense at Brown CS (<em>Aug '15</em>)</li>
+              <li>Mobile-friendly website redesign based on my <a href="images/old_design.png">old page</a> (<em>Feb '15</em>) </li>
+              <li>Seminar at MIT Lincoln Laboratory (<em>Feb '15</em>) </li>
+              <li>On the CHI 2015 Works-in-Progress (WiP) PC (<em>Jan '15</em>)</li>
+              <li>Talk at IEEE VAST 2014 in Paris (<em>Nov '14</em>)</li>
+              <li>Talk at Tufts, Inaugural Boston VIS (BostonVIS) Workshop 2014, (<em>Oct '14</em>)</li>
+            </ul>
+
+            <h3>
+              Teaching
+            </h3>
+            <ul>
+              <li><strong>Fall 2014</strong>: 
+                <p>I was the teaching assistant for an upper-level course at Brown, <a href="http://www.cs.brown.edu/courses/cs237/2014/">CSCI 2370: Interdisciplinary Scientific Visualization</a>.
+                </p>
+              </li>
+              <li><strong>Spring 2014</strong>:
+                <p>I was a Teaching Fellow and the instructor of <a href="http://www.cs.brown.edu/courses/csci0931/2014-spring/">CSCI 0931: Introduction to Computation for the Humanities and Social Sciences</a>. I taught 20 undergraduates without programming experience how to use Python and Excel to formulate and test claims about data. In the course, students are introduced to data structures, functions, control flow, file i/o, and more. The course is also unique as an introduction to programming because it lets students choose their own projects. Student project pages are <a href="http://cs.brown.edu/courses/csci0931/2014/projects.shtml">online</a> but might require permission or a @brown.edu account to view. In-class labs include creating a ranking of U.S. senators from left-leaning to right-leaning based on public voting records, and identifying authorship using a textual analysis of the Oz book series (available on <a href="http://gutenberg.org">gutenberg.org</a>).
+                </p>
+              </li>
+              <li><strong>Fall 2012</strong>: 
+                <p>I was the teaching assistant for <a href="http://www.cs.brown.edu/courses/cs237/2012/">CSCI 2370: Interdisciplinary Scientific Visualization</a>.
+                </p>
+              </li>
+            </ul>
+              
+            <h3>
+              Activities
+            </h3>
+            <ul>
+                
+              <li><strong>2013</strong>:
+                <p>Student member of the Brown CS PhD admissions committee
+                </p>
+              </li>
+
+              <li><strong>2010-11</strong>:
+                <p>CS department <em>social czar</em>, in charge of getting grad students out of their offices every month
+                </p>
+              </li>
+                  
+              <li><strong>2010</strong>:
+                <p>CS department <em>orientation czar</em>, in charge of organizing research talks, panels, activities, and technical accommodations for new grad students
+                </p>
+              </li>
+                  
+            </ul>
+          </div>
+        </div>
+          
+        <div class="tab-pane" id="research">
+          <div class="col-lg-12">
+            <h3>
+              Papers
+            </h3>
+            <div id="paper-table">
+              <table class="researchtab">
+                <tr>
+                  <td>
+                    <span class="title">A Case Study Using Visualization Interaction Logs and Insight Metrics to Understand How Analysts Arrive at Insights</span><br/>
+                    <span class="pub">IEEE VAST</span>, 2015, <span class="award">Honorable Mention Award</span><br>
+                    Hua Guo, <strong>Steven R. Gomez</strong>, Caroline Ziemkiewicz, David H. Laidlaw<br/>
+                    <a href="https://vimeo.com/groups/vis2015previews/videos/136206336">video</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">An Insight- and Task-based Methodology for Evaluating Spatiotemporal Visual Analytics</span><br>
+                    <span class="pub">IEEE VAST</span>, 2014<br>
+                    <strong>Steven R. Gomez</strong>, Hua Guo, Caroline Ziemkiewicz, and David H. Laidlaw<br>
+                    <a href="pubs/Gomez-2014-ITM.pdf" >pdf</a> <a href="http://vimeo.com/102599535">video</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">Different Strokes for Different Folks: Visual Presentation Design Between Disciplines</span><br>
+                    <span class="pub">IEEE InfoVis</span>, 2012<br>
+                    <strong>Steven R. Gomez</strong>, Radu Jianu, Caroline Ziemkiewicz, Hua Guo, and David H. Laidlaw<br>
+                    <a href="pubs/Gomez-2012-DSD.pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">Modeling Task Performance for a Crowd of Users from Interaction Histories</span><br>
+                    <span class="pub">ACM CHI</span>, 2012, <span class="award">Honorable Mention Award</span><br>
+                    <strong>Steven R. Gomez</strong> and David H. Laidlaw<br>
+                    <a href="pubs/Gomez-2012-MTP.pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">Analysis Within and Between Graphs: Observed User Strategies in Immunobiology Visualization</span><br>
+                    <span class="pub">ACM CHI</span>, 2012<br>
+                    Caroline Ziemkiewicz, <strong>Steven Gomez</strong>, and David H. Laidlaw<br>
+                    <a href="http://www.cs.brown.edu/~cziemki/documents/ziemkiewicz12_user-strategies.pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">A Fiducial-Based Tangible User Interface for White Matter Tractography</span><br>
+                    <span class="pub">ISVC'10</span>, 2010<br>
+                    <strong>Steven R. Gomez</strong>, Radu Jianu, and David H. Laidlaw<br>
+                    <a href="pubs/Gomez-2010-FBT.pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">Blues for Gary: Design Abstractions for a Jazz Improvisation Assistant</span><br>
+                    <span class="pub">Electronic Notes in Theoretical Computer Science</span>, 193 (Nov. 2007), 47-60<br>
+                    Bob Keller, Martin Hunt, Stephen Jones, David Morrison, Aaron Wolin, and <strong>Steven Gomez</strong><br>
+                    <a href="pubs/reu-blues07.pdf">pdf</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+              
+            <h3>
+              Extended Abstracts and Posters
+            </h3>
+            <div id="abstracts-table">
+              <table class="researchtab">
+                <tr>
+                  <td>
+                    <span class="title">Visualization to Facilitate Structured Exploration of Published Findings in Rat Brain Connectivity</span><br>
+                    <span class="pub">IEEE InfoVis (Poster session)</span>, 2013<br>
+                    Hua Guo, <strong>Steven R. Gomez</strong>, Mark J. Schnitzer, and David H. Laidlaw<br>
+                    <a href="http://cs.brown.edu/~huag/pdf/brainet_poster_final.pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">Toward a visual interface for brain connectivity analysis</span><br>
+                    <span class="pub">ACM CHI: Extended Abstracts</span>, 2013<br>
+                    Hua Guo, Arthur Yidi, <strong>Steven R. Gomez</strong>, Mark J. Schnitzer, David Badre, and David H. Laidlaw<br>
+                    <!-- <a href="">pdf</a> -->
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">Modeling Human Performance from Visualization Interaction Histories</span><br>
+                    <span class="pub">IEEE InfoVis (Poster session)</span>, 2011, <span class="award">Honorable Mention Award</span><br>
+                    <strong>Steven R. Gomez</strong> and David H. Laidlaw<br>
+                    <a href="pubs/Gomez-2011-MHP.pdf">pdf</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="title">Interacting with Live Preview Frames: In-Picture Cues for a Digital Camera Interface</span><br>
+                    <span class="pub">ACM UIST (Poster Session)</span>, 2010<br>
+                    <strong>Steven R. Gomez</strong><br>
+                    <a href="pubs/Gomez-2010-ILP.pdf">pdf</a>
+                  </td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tab-pane" id="resources">
+          <div class="col-lg-12">
+            <h3>
+              Resources for Young Scientists
+            </h3>
+            <ul>
+              <li><b>How to Give a Great SIGGRAPH Talk</b>. (<a href="http://www.dgp.toronto.edu/~anab/grad/siggraphtalk01.pdf">pdf</a>)
+              </li>
+              <li>Manuel Blum, <b>Advice to a Beginning Grad Student</b>.
+                (<a href="http://www.cs.cmu.edu/~mblum/research/pdf/grad.html">html</a>)
+              </li>
+              <li>Mark Leone, <b>Advice on Research and Writing</b> (mostly aimed at
+                computer scientists).
+                (<a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html">html</a>)
+              </li>
+              <li>John Woodwark, <b>How to Run a Paper Mill</b>.
+                (<a href="http://www.google.com/url?sa=t&source=web&ct=res&cd=1&ved=0CAkQFjAA&url=http%3A%2F%2Fatenea.etsimo.uniovi.es%2Fdocs%2Findex.php%3Faction%3Ddownloadfile%26filename%3Dpmill.pdf&ei=SEpSS6eoIc2Ptgf79-WzDQ&usg=AFQjCNH9gxM_UKvloumbwMZXxrryg5Pt0g&sig2=l-fu-ecqn00CC8SMXc10fw">pdf</a>)
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="tab-pane" id="dissertation">
+          <div class="col-lg-12">
+            <h3>
+              Dissertation
+            </h3>
+            <ul>
+              <li>foo
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        </div> <!-- /tab-content -->
+        
+        <footer class="footer pull-right">
+          Last updated on:
+          <script>
+          var lmDate = new Date(document.lastModified);
+          var options = {
+            weekday: "long", year: "numeric", month: "short",
+            day: "numeric"/*, hour: "2-digit", minute: "2-digit"*/
+          };
+          document.write(lmDate.toLocaleDateString("en-us", options));
+          </script><br />
+          &copy; 2009-15 Steven R. Gomez
+        </footer>
+      </div> <!-- /container -->
+    </body>
+    </html>

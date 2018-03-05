@@ -1,0 +1,77 @@
+/* Basic style info */
+body
+{
+    background-color:#fff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 11pt;
+}
+
+body a { color:#bb3300; }
+body a:hover { color:#ff0000; }
+
+nav .redpill .active a, 
+nav .redpill .active a:hover,
+nav .redpill .active a:focus { 
+  background-color:#A00000;
+}
+
+nav .redpill .active a, nav .redpill .active a:hover { 
+  background-color:#A00000;
+}
+
+nav a:hover { color:#A00000; }
+
+.header h2, h3 {
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+footer
+{
+    background:#fff;
+    font-size: 0.75em;
+    text-align: right;
+}
+
+.media, .media-left, .media-right {
+  /* font-size: smaller; */
+  background:#f6f6f6;
+	vertical-align: middle;
+}
+
+.media-left h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div .media-left, div .media-right {
+  padding: 5px;
+}
+
+.researchtab td
+{
+    padding-bottom: 1.5em;
+}
+
+.researchtab tr
+{
+    background:#fff;
+}
+
+.researchtab .title
+{
+    font-weight:normal;
+    color:#000;
+    background:#eee;
+}
+
+.researchtab .pub
+{
+    font-style:italic;
+}
+
+.researchtab .award
+{
+    color:#BB3333;
+}
+

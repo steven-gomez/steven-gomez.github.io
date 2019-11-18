@@ -1,0 +1,163 @@
+{
+    "authors" : {
+        "me" : "Steven R. Gomez",
+        "dhl" : "David H. Laidlaw",
+        "diane" : "Diane Staheli",
+        "allan" : "Allan Wollaber",
+        "dennis" : "Dennis Ross",
+        "brett" : "Brett Fouss",
+        "hamed" : "Hamed Okhravi",
+        "rick" : "Richard Skowyra",
+        "vince" : "Vince Mancuso",
+        "hua" : "Hua Guo",
+        "caroline" : "Caroline Ziemkiewicz",
+        "radu" : "Radu Jianu"
+    },
+    "venues" : {
+        "tvcg" : {
+            "short" : "IEEE TVCG",
+            "full" : "IEEE Trans. on Visualization and Computer Graphics"
+        },
+        "vast" : {
+            "short" : "IEEE VAST",
+            "full" : "IEEE Conference on Visual Analytics Science and Technology (VAST)"
+        },
+        "vizsec" : {
+            "short" : "IEEE VizSec",
+            "full" : "IEEE Symposium on Visualization for Cyber Security (VizSec)"
+        },
+        "infovis" : {
+            "short" : "IEEE InfoVis",
+            "full" : "IEEE Conference on Information Visualization (InfoVis)"
+        },
+        "acsac" : {
+            "short" : "ACM ACSAC",
+            "full" : "ACM ACSAC"
+        },
+        "entcs" : {
+            "short" : "Elec. Notes in Theoretical Computer Science",
+            "full" : "Electronic Notes in Theoretical Computer Science"
+        },
+        "chi" : {
+            "short" : "ACM CHI",
+            "full" : "ACM Conference on Human-Computer Interaction (CHI)"
+        },
+        "chi-ea" : {
+            "short" : "CHI Extended Abstracts",
+            "full" : "ACM Conference on Human-Computer Interaction (CHI) Extended Abstracts"
+        },
+        "isvc" : {
+          "short" : "ISVC",
+          "full" : "International Symposium on Visual Computating (ISVC)"
+        },
+        "infovis-posters" : {
+            "short" : "IEEE InfoVis (Posters)",
+            "full" : "IEEE Conference on Information Visualization (Posters)"
+        },
+        "uist-posters" : {
+            "short" : "ACM UIST (Posters)",
+            "full" : "ACM Conference on User Interface Science and Technology (UIST) (Posters)"
+        }
+    },
+    "journal_papers" : [
+        {
+            "title" : "A Case Study Using Visualization Interaction Logs and Insight Metrics to Understand How Analysts Arrive at Insights",
+            "venue" : "tvcg",
+            "presented_at" : "vast",
+            "year" : 2015,
+            "authors" : ["hua", "me", "caroline", "dhl"],
+            "volume" : 22,
+            "number" : 1,
+            "link" : "https://ieeexplore.ieee.org/abstract/document/7192662",
+            "video" : "https://vimeo.com/groups/vis2015previews/videos/136206336",
+            "award" : "Best Paper Honorable Mention"
+        },
+        {
+            "title" : "Blues for Gary: Design Abstractions for a Jazz Improvisation Assistant",
+            "venue" : "entcs",
+            "year" : 2007,
+            "authors" : ["Bob Keller", "Martin Hunt", "Stephen Jones", "David Morrison", "Aaron Wolin", "me"]
+        }
+    ],
+    "conference_papers" : [
+        {
+            "title" : "PunyVis: A Visual Analytics Approach for Identifying Homograph Phishing Attacks",
+            "venue" : "vizsec",
+            "year" : 2019,
+            "authors" : ["brett", "dennis", "allan", "me"],
+            "link" : "",
+            "pdf" : ""
+        },
+        {
+            "title" : "QUASAR: Quantitative Attack Space Analysis and Reasoning",
+            "venue" : "acsac",
+            "year" : 2017,
+            "authors" : ["rick", "me", "David Bigelow", "James Landry", "hamed"],
+            "link" : "https://dl.acm.org/citation.cfm?id=3134600.3134633"
+        },
+        {
+            "title" : "An Insight- and Task-based Methodology for Evaluating Spatiotemporal Visual Analytics",
+            "venue" : "vast",
+            "year" : 2014,
+            "authors" : ["me", "hua", "caroline", "dhl"],
+            "video" : "http://vimeo.com/102599535",
+            "pdf" : "pubs/Gomez-2014-ITM.pdf"
+        },
+        {
+            "title" : "Different Strokes for Different Folks: Visual Presentation Design Between Disciplines",
+            "venue" : "tvcg",
+            "presented_at" : "infovis",
+            "year" : 2012,
+            "authors" : ["me", "radu", "caroline", "hua", "dhl"],
+            "pdf" : "pubs/Gomez-2012-DSD.pdf"
+        },
+        {
+            "title" : "Modeling Task Performance for a Crowd of Users from Interaction Histories",
+            "venue" : "chi",
+            "authors" : ["me", "dhl"],
+            "year" : 2012,
+            "pdf" : "pubs/Gomez-2012-MTP.pdf",
+            "award" : "Honorable Mention Award"
+        },
+        {
+            "title" : "Analysis Within and Between Graphs: Observed User Strategies in Immunobiology Visualization",
+            "venue" : "chi",
+            "authors" : ["caroline", "me", "dhl"],
+            "year" : 2012
+        },
+        {
+            "title" : "A Fiducial-Based Tangible User Interface for White Matter Tractography",
+            "venue" : "isvc",
+            "authors" : ["me", "radu", "dhl"],
+            "year" : 2010,
+            "pdf" : "pubs/Gomez-2010-FBT.pdf"
+        }
+    ],
+    "posters" : [
+        {
+            "title" : "Visualization to Facilitate Structured Exploration of Published Findings in Rat Brain Connectivity",
+            "venue" : "infovis-posters",
+            "year": 2013,
+            "authors" : ["hua", "me", "Mark J. Schnitzer", "dhl"]
+        },
+        {
+            "title" : "Toward a visual interface for brain connectivity analysis",
+            "venue" : "chi-ea",
+            "year" : 2013,
+            "authors" : ["hua", "Arthur Yidi", "me", "Mark J. Schnitzer", "David Badre", "dhl"]
+        },
+        {
+            "title" : "Modeling Human Performance from Visualization Interaction Histories",
+            "venue" : "infovis-posters",
+            "year" : 2011,
+            "authors" : ["me", "dhl"],
+            "award" : "Honorable Mention Poster Award"
+        },
+        {
+            "title" : "Interacting with Live Preview Frames: In-Picture Cues for a Digital Camera Interface",
+            "venue" : "uist-posters",
+            "year" : 2010,
+            "authors" : ["me"]
+        }
+    ]
+}

@@ -9,13 +9,13 @@ body
 body a { color:#bb3300; }
 body a:hover { color:#ff0000; }
 
-nav .redpill .active a, 
+nav .redpill .active a,
 nav .redpill .active a:hover,
-nav .redpill .active a:focus { 
+nav .redpill .active a:focus {
   background-color:#A00000;
 }
 
-nav .redpill .active a, nav .redpill .active a:hover { 
+nav .redpill .active a, nav .redpill .active a:hover {
   background-color:#A00000;
 }
 
@@ -50,6 +50,8 @@ div .media-left, div .media-right {
 
 .researchtab td
 {
+    vertical-align: top;
+    padding-right: .5em;
     padding-bottom: 1.5em;
 }
 
@@ -75,3 +77,12 @@ div .media-left, div .media-right {
     color:#BB3333;
 }
 
+.researchtab .self-author
+{
+  font-weight: bold;
+}
+
+.researchtab .other-author
+{
+  font-weight: normal;
+}

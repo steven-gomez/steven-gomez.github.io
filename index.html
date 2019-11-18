@@ -7,24 +7,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Steven R. Gomez</title>
-        
+
   <!-- Bootstrap -->
   <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-  
+
   <link href="css/jumbotron-narrow.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  
+
   <!-- Google fonts -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300italic' rel='stylesheet' type='text/css'>
-        
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  
+
   <!-- Selecting default tab from url -->
   <script>
+    /*
   function selectTab() {
     var id = window.location.href.split('#')[1];
     var defaultTab = 'about'
@@ -33,27 +34,28 @@
     } else {
       id = defaultTab;
     }
-    $("#tabs a[href=#"+id+"]").tab('show');
+    $("#tabs").tabs( { active:0 } );;
   }
+    */
   </script>
   </head>
-   
- 
-  <body onload="selectTab();">
+
+
+  <body>
     <div class="container">
       <div class="header">
         <nav>
             <ul class="nav nav-pills pull-right redpill" id="tabs">
-              <li><a href="#about" data-toggle="tab">about</a></li>
+              <li class="active"><a href="#about" data-toggle="tab">about</a></li>
               <li><a href="#research" data-toggle="tab">research</a></li>
               <!-- <li><a href="#resources" data-toggle="tab">resources</a></li> -->
             </ul>
             <h2>Steven R. Gomez</h2>
         </nav>
       </div>
-        
+
       <div class="tab-content">
-        <div class="tab-pane" id="about">
+        <div class="tab-pane active" id="about">
           <div class="col-lg-12">
             <div class="media">
               <div class="media-right pull-right effect">
@@ -72,7 +74,7 @@
               </div>
             </div>
           </div>
-              
+
           <div class="col-lg-12">
             <h3>
               About
@@ -83,7 +85,7 @@
             <p>
               I recently finished my PhD at Brown University in computer science and data visualization under the supervision of <a href="http://www.cs.brown.edu/~dhl">David H. Laidlaw</a>. I received a ScM degree from Brown in computer science in 2011. Before coming to Brown, I was a software engineer in New Hampshire. In 2007, I received a BA in computer science from <a href="http://www.dartmouth.edu">Dartmouth College</a>.
             </p>
-            
+
             <h3>
               News
             </h3>
@@ -110,7 +112,7 @@
               Teaching
             </h3>
             <ul>
-              <li><strong>Fall 2014</strong>: 
+              <li><strong>Fall 2014</strong>:
                 <p>I was the teaching assistant for an upper-level course at Brown, <a href="http://www.cs.brown.edu/courses/cs237/2014/">CSCI 2370: Interdisciplinary Scientific Visualization</a>.
                 </p>
               </li>
@@ -118,17 +120,17 @@
                 <p>I was a Teaching Fellow and the instructor of <a href="http://www.cs.brown.edu/courses/csci0931/2014-spring/">CSCI 0931: Introduction to Computation for the Humanities and Social Sciences</a>. I taught 20 undergraduates without programming experience how to use Python and Excel to formulate and test claims about data. In the course, students are introduced to data structures, functions, control flow, file i/o, and more. The course is also unique as an introduction to programming because it lets students choose their own projects. Student project pages are <a href="http://cs.brown.edu/courses/csci0931/2014/projects.shtml">online</a> but might require permission or a @brown.edu account to view. In-class labs include creating a ranking of U.S. senators from left-leaning to right-leaning based on public voting records, and identifying authorship using a textual analysis of the Oz book series (available on <a href="http://gutenberg.org">gutenberg.org</a>).
                 </p>
               </li>
-              <li><strong>Fall 2012</strong>: 
+              <li><strong>Fall 2012</strong>:
                 <p>I was the teaching assistant for <a href="http://www.cs.brown.edu/courses/cs237/2012/">CSCI 2370: Interdisciplinary Scientific Visualization</a>.
                 </p>
               </li>
             </ul>
-              
+
             <h3>
               Activities
             </h3>
             <ul>
-                
+
               <li><strong>2013</strong>:
                 <p>Student member of the Brown CS PhD admissions committee
                 </p>
@@ -138,133 +140,34 @@
                 <p>CS department <em>social czar</em>, in charge of getting grad students out of their offices every month
                 </p>
               </li>
-                  
+
               <li><strong>2010</strong>:
                 <p>CS department <em>orientation czar</em>, in charge of organizing research talks, panels, activities, and technical accommodations for new grad students
                 </p>
               </li>
-                  
+
             </ul>
           </div>
         </div>
-          
+
         <div class="tab-pane" id="research">
           <div class="col-lg-12">
-            <h3>
-              Papers
-            </h3>
-            <div id="paper-table">
-              <table class="researchtab">
-                <tr>
-                  <td>
-                    <span class="title">QUASAR: Quantitative Attack Space Analysis and Reasoning</span><br/>
-                    <span class="pub">ACSAC</span>, 2017<br>
-                    Richard Skowyra, <strong>Steven R. Gomez</strong>, David Bigelow, James Landry, Hamed Okhravi<br/>
-                    <a href="https://dl.acm.org/citation.cfm?id=3134600.3134633">link</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">A Case Study Using Visualization Interaction Logs and Insight Metrics to Understand How Analysts Arrive at Insights</span><br/>
-                    <span class="pub">IEEE VAST</span>, 2015, <span class="award">Honorable Mention Award</span><br>
-                    Hua Guo, <strong>Steven R. Gomez</strong>, Caroline Ziemkiewicz, David H. Laidlaw<br/>
-                    <a href="https://vimeo.com/groups/vis2015previews/videos/136206336">video</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">An Insight- and Task-based Methodology for Evaluating Spatiotemporal Visual Analytics</span><br>
-                    <span class="pub">IEEE VAST</span>, 2014<br>
-                    <strong>Steven R. Gomez</strong>, Hua Guo, Caroline Ziemkiewicz, and David H. Laidlaw<br>
-                    <a href="pubs/Gomez-2014-ITM.pdf" >pdf</a> <a href="http://vimeo.com/102599535">video</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">Different Strokes for Different Folks: Visual Presentation Design Between Disciplines</span><br>
-                    <span class="pub">IEEE InfoVis</span>, 2012<br>
-                    <strong>Steven R. Gomez</strong>, Radu Jianu, Caroline Ziemkiewicz, Hua Guo, and David H. Laidlaw<br>
-                    <a href="pubs/Gomez-2012-DSD.pdf">pdf</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">Modeling Task Performance for a Crowd of Users from Interaction Histories</span><br>
-                    <span class="pub">ACM CHI</span>, 2012, <span class="award">Honorable Mention Award</span><br>
-                    <strong>Steven R. Gomez</strong> and David H. Laidlaw<br>
-                    <a href="pubs/Gomez-2012-MTP.pdf">pdf</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">Analysis Within and Between Graphs: Observed User Strategies in Immunobiology Visualization</span><br>
-                    <span class="pub">ACM CHI</span>, 2012<br>
-                    Caroline Ziemkiewicz, <strong>Steven Gomez</strong>, and David H. Laidlaw<br>
-                    <a href="http://www.cs.brown.edu/~cziemki/documents/ziemkiewicz12_user-strategies.pdf">pdf</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">A Fiducial-Based Tangible User Interface for White Matter Tractography</span><br>
-                    <span class="pub">ISVC'10</span>, 2010<br>
-                    <strong>Steven R. Gomez</strong>, Radu Jianu, and David H. Laidlaw<br>
-                    <a href="pubs/Gomez-2010-FBT.pdf">pdf</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">Blues for Gary: Design Abstractions for a Jazz Improvisation Assistant</span><br>
-                    <span class="pub">Electronic Notes in Theoretical Computer Science</span>, 193 (Nov. 2007), 47-60<br>
-                    Bob Keller, Martin Hunt, Stephen Jones, David Morrison, Aaron Wolin, and <strong>Steven Gomez</strong><br>
-                    <a href="pubs/reu-blues07.pdf">pdf</a>
-                  </td>
-                </tr>
+            <h3>Conference and Journal Papers</h3>
+            <div id="paper-table-div">
+              <table id="paper-table" class="researchtab">
+                <tbody></tbody>
               </table>
             </div>
-              
-            <h3>
-              Extended Abstracts and Posters
-            </h3>
-            <div id="abstracts-table">
-              <table class="researchtab">
-                <tr>
-                  <td>
-                    <span class="title">Visualization to Facilitate Structured Exploration of Published Findings in Rat Brain Connectivity</span><br>
-                    <span class="pub">IEEE InfoVis (Poster session)</span>, 2013<br>
-                    Hua Guo, <strong>Steven R. Gomez</strong>, Mark J. Schnitzer, and David H. Laidlaw<br>
-                    <a href="http://cs.brown.edu/~huag/pdf/brainet_poster_final.pdf">pdf</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">Toward a visual interface for brain connectivity analysis</span><br>
-                    <span class="pub">ACM CHI: Extended Abstracts</span>, 2013<br>
-                    Hua Guo, Arthur Yidi, <strong>Steven R. Gomez</strong>, Mark J. Schnitzer, David Badre, and David H. Laidlaw<br>
-                    <!-- <a href="">pdf</a> -->
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">Modeling Human Performance from Visualization Interaction Histories</span><br>
-                    <span class="pub">IEEE InfoVis (Poster session)</span>, 2011, <span class="award">Honorable Mention Award</span><br>
-                    <strong>Steven R. Gomez</strong> and David H. Laidlaw<br>
-                    <a href="pubs/Gomez-2011-MHP.pdf">pdf</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="title">Interacting with Live Preview Frames: In-Picture Cues for a Digital Camera Interface</span><br>
-                    <span class="pub">ACM UIST (Poster Session)</span>, 2010<br>
-                    <strong>Steven R. Gomez</strong><br>
-                    <a href="pubs/Gomez-2010-ILP.pdf">pdf</a>
-                  </td>
-                </tr>
-
+            <h3>Abstracts and Posters</h3>
+            <div id="abstracts-table-div">
+              <table id="abstract-table" class="researchtab">
+                <tbody></tbody>
               </table>
             </div>
           </div>
         </div>
-        
+
+        <!--
         <div class="tab-pane" id="resources">
           <div class="col-lg-12">
             <h3>
@@ -286,7 +189,9 @@
             </ul>
           </div>
         </div>
-        
+      -->
+
+      <!--
         <div class="tab-pane" id="dissertation">
           <div class="col-lg-12">
             <h3>
@@ -298,10 +203,11 @@
             </ul>
           </div>
         </div>
-        
-        
-        </div> <!-- /tab-content -->
-        
+        </div>
+        -->
+
+        <!-- /tab-content -->
+
         <footer class="footer pull-right">
           Last updated on:
           <script>
@@ -315,5 +221,9 @@
           &copy; 2009-15 Steven R. Gomez
         </footer>
       </div> <!-- /container -->
+
     </body>
-    </html>
+
+<!-- Load papers info from json -->
+<script src="/js/papermill.js"></script>
+</html>

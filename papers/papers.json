@@ -102,7 +102,8 @@
             "year" : 2019,
             "authors" : ["brett", "dennis", "allan", "me"],
             "link" : "",
-            "pdf" : ""
+            "pdf" : "",
+            "video" : "https://vimeo.com/380961560"
         },
         {
             "title" : "Controller-Oblivious Dynamic Access Control in Software-Defined Networks",
@@ -126,7 +127,7 @@
             "year" : 2014,
             "authors" : ["me", "hua", "caroline", "dhl"],
             "video" : "http://vimeo.com/102599535",
-            "pdf" : "pubs/Gomez-2014-ITM.pdf"
+            "pdf" : ""
         },
         {
             "title" : "Different Strokes for Different Folks: Visual Presentation Design Between Disciplines",
@@ -134,14 +135,13 @@
             "presented_at" : "infovis",
             "year" : 2012,
             "authors" : ["me", "radu", "caroline", "hua", "dhl"],
-            "pdf" : "pubs/Gomez-2012-DSD.pdf"
+            "pdf" : ""
         },
         {
             "title" : "Modeling Task Performance for a Crowd of Users from Interaction Histories",
             "venue" : "chi",
             "authors" : ["me", "dhl"],
             "year" : 2012,
-            "pdf" : "pubs/Gomez-2012-MTP.pdf",
             "award" : "Honorable Mention Award"
         },
         {
@@ -154,8 +154,7 @@
             "title" : "A Fiducial-Based Tangible User Interface for White Matter Tractography",
             "venue" : "isvc",
             "authors" : ["me", "radu", "dhl"],
-            "year" : 2010,
-            "pdf" : "pubs/Gomez-2010-FBT.pdf"
+            "year" : 2010
         }
     ],
     "posters" : [

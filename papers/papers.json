@@ -31,6 +31,10 @@
             "short" : "IEEE InfoVis",
             "full" : "IEEE Conference on Information Visualization (InfoVis)"
         },
+        "dsn" : {
+            "short": "IEEE DSN",
+            "full": "IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)"
+        },
         "ndss": {
             "short": "NDSS Symposium",
             "full": "Network and Distributed System Security Symposium (NDSS)"
@@ -100,6 +104,15 @@
             "link" : "",
             "pdf" : ""
         },
+        {
+            "title" : "Controller-Oblivious Dynamic Access Control in Software-Defined Networks",
+            "venue" : "dsn",
+            "year" : 2019,
+            "authors" : ["me", "sam", "rick", "Jason Martin", "Patrick Sullivan", "David Bigelow", "Zachary Ellenbogen", "Bryan C. Ward", "hamed", "James W. Landry"],
+            "pdf" : "https://sjero.net/pubs/2019_DSN_DFI.pdf",
+            "link" : "https://ieeexplore.ieee.org/abstract/document/8809519"
+        }
+        ,
         {
             "title" : "QUASAR: Quantitative Attack Space Analysis and Reasoning",
             "venue" : "acsac",

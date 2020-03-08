@@ -7,6 +7,7 @@
         "dennis" : "Dennis Ross",
         "brett" : "Brett Fouss",
         "hamed" : "Hamed Okhravi",
+        "sam" : "Samuel Jero",
         "rick" : "Richard Skowyra",
         "vince" : "Vince Mancuso",
         "hua" : "Hua Guo",
@@ -29,6 +30,10 @@
         "infovis" : {
             "short" : "IEEE InfoVis",
             "full" : "IEEE Conference on Information Visualization (InfoVis)"
+        },
+        "ndss": {
+            "short": "NDSS Symposium",
+            "full": "Network and Distributed System Security Symposium (NDSS)"
         },
         "acsac" : {
             "short" : "ACM ACSAC",
@@ -80,6 +85,13 @@
         }
     ],
     "conference_papers" : [
+        {
+            "title": "Automated Discovery of Cross-Plane Event-Based Vulnerabilities in Software-Defined Networking",
+            "venue": "ndss",
+            "year": 2020,
+            "authors": ["Benjamin E. Ujcich", "sam", "rick", "me", "Adam Bates", "William H. Sanders", "hamed"],
+            "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2020/02/24080.pdf"
+        },
         {
             "title" : "PunyVis: A Visual Analytics Approach for Identifying Homograph Phishing Attacks",
             "venue" : "vizsec",

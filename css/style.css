@@ -53,6 +53,7 @@ div .media-left, div .media-right {
     vertical-align: top;
     padding-right: .5em;
     padding-bottom: 1.5em;
+    font-size: .8em;
 }
 
 .researchtab tr
@@ -62,9 +63,10 @@ div .media-left, div .media-right {
 
 .researchtab .title
 {
-    font-weight:normal;
-    color:#000;
-    background:#eee;
+    font-weight: normal;
+    font-size: 1em;
+    color: #000;
+    background: #fff;
 }
 
 .researchtab .pub

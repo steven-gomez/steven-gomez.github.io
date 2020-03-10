@@ -13,7 +13,8 @@ var papermill = (function() {
       abstracts.forEach(appendAbstractPoster);
 
       function sortByYear(p1, p2) {
-        return p1['year'] > p2['year'] ? 1 : -1;
+        // Sort more recent years with lower indices
+        return p1['year'] > p2['year'] ? -1 : 1;
       }
 
       function appendFullPaper(p, id) {

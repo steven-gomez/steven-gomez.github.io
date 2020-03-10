@@ -13,6 +13,7 @@ var papermill = (function() {
       abstracts.forEach(appendAbstractPoster);
 
       function sortByYear(p1, p2) {
+        console.log("Sorting", p1, p2);
         return p1['year'] > p2['year'];
       }
 

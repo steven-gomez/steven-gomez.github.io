@@ -48,6 +48,13 @@ div .media-left, div .media-right {
   padding: 5px;
 }
 
+/* Override main container width */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
+
 .researchtab td
 {
     vertical-align: top;

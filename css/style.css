@@ -61,6 +61,7 @@ img.portrait {
 
 img.clip-circle {
   clip-path: circle(80px at center);
+  -webkit-clip-path: circle(80px at center);
 }
 
 .researchtab td

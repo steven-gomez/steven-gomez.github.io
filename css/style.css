@@ -52,7 +52,15 @@ div .media-left, div .media-right {
 .container {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1200px;
+  max-width: 800px;
+}
+
+img.portrait {
+  width: 160px;
+}
+
+img.clip-circle {
+  clip-path: circle(80px at center);
 }
 
 .researchtab td

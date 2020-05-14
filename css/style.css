@@ -60,7 +60,9 @@ img.portrait {
 }
 
 img.clip-circle {
+  /* Note: neither attribute appears to work as intended with Safari 13.0.3 */
   clip-path: circle(80px at center);
+  -webkit-clip-path: circle(80px at center);
 }
 
 .researchtab td

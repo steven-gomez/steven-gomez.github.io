@@ -135,26 +135,30 @@
             "presented_at" : "infovis",
             "year" : 2012,
             "authors" : ["me", "radu", "caroline", "hua", "dhl"],
-            "pdf" : ""
+            "pdf" : "",
+            "link" : "https://ieeexplore.ieee.org/abstract/document/6327246?casa_token=btZ_vynbzpYAAAAA:jZT19o-NjFS3FCH-NIEBzZhdgl04-anmDPjJ8ATKLltGqSiP-iJoFaObGFuq9jPw2Qi7-g"
         },
         {
             "title" : "Modeling Task Performance for a Crowd of Users from Interaction Histories",
             "venue" : "chi",
             "authors" : ["me", "dhl"],
             "year" : 2012,
-            "award" : "Honorable Mention Award"
+            "award" : "Honorable Mention Award",
+            "link": "https://dl.acm.org/doi/abs/10.1145/2207676.2208412?casa_token=BPLRxD6I80UAAAAA:W6LXqAEeg1S-CvADBSx01KkrJ_k6KDs4hARlrXSvGy-7WFysuuyvCJ_8RPa8XqFaEQnyWuU8Mw"
         },
         {
             "title" : "Analysis Within and Between Graphs: Observed User Strategies in Immunobiology Visualization",
             "venue" : "chi",
             "authors" : ["caroline", "me", "dhl"],
-            "year" : 2012
+            "year" : 2012,
+            "link" : "https://dl.acm.org/doi/abs/10.1145/2207676.2208291?casa_token=naguL5q2RMUAAAAA:boYom3-aI950_pkXzseMf9i-_863Vpvl8IaOzg280W0mnbb48l-oM9SURnhW7Muj3r7viyDrDg"
         },
         {
             "title" : "A Fiducial-Based Tangible User Interface for White Matter Tractography",
             "venue" : "isvc",
             "authors" : ["me", "radu", "dhl"],
-            "year" : 2010
+            "year" : 2010,
+            "link" : "https://link.springer.com/chapter/10.1007/978-3-642-17274-8_37"
         }
     ],
     "posters" : [

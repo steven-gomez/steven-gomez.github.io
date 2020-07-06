@@ -43,7 +43,6 @@ var papermill = (function() {
         }
 
         function getAuthorsHtml(arr) {
-          console.log('foo' + arr);
           let newAuths = arr.map(function(a) {
             let myClass = "other-author";
             if (a === "me") myClass = "self-author";

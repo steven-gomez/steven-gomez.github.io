@@ -85,7 +85,8 @@
             "title" : "Blues for Gary: Design Abstractions for a Jazz Improvisation Assistant",
             "venue" : "entcs",
             "year" : 2007,
-            "authors" : ["Bob Keller", "Martin Hunt", "Stephen Jones", "David Morrison", "Aaron Wolin", "me"]
+            "authors" : ["Bob Keller", "Martin Hunt", "Stephen Jones", "David Morrison", "Aaron Wolin", "me"],
+            "link" : "https://www.sciencedirect.com/science/article/pii/S1571066107005920"
         }
     ],
     "conference_papers" : [

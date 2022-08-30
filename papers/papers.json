@@ -91,6 +91,29 @@
     ],
     "conference_papers" : [
         {
+            "Interpreting a Mirage: Lessons from a Design Study Toward Synthetic Weather Visualizations",
+            "venue" : "ACM CHI Workshop on Human-Centered Explainable AI (HCXAI'22)",
+            "year" : 2022,
+            "authors": ["me", "Kevin K. Nam"],
+            "link": "https://hcxai.jimdosite.com/hcxai-22-papers-and-videos/",
+            "pdf": "https://www.dropbox.com/s/95ghj04bro6svx4/HCXAI2022_paper_44.pdf?dl=0"
+        },
+        {
+            "title": "Beyond Expertise and Roles: A Framework to Characterize the Stakeholders of Interpretable Machine Learning and their Needs",
+            "venue": "chi",
+            "year": 2021,
+            "authors": ["Harini Suresh", "me", "Kevin K. Nam", "Arvind Satyanarayan"],
+            "link": "https://dl.acm.org/doi/abs/10.1145/3411764.3445088"
+        },
+        {
+            "title": "Improving Interpretability for Cyber Vulnerability Assessment Using Focus and Context Visualizations",
+            "venue": "vizsec",
+            "year": 2020,
+            "authors": ["Kenneth B. Alperin", "allan", "me"],
+            "pdf": "https://www.researchgate.net/profile/Kenneth-Alperin/publication/349204581_Improving_Interpretability_for_Cyber_Vulnerability_Assessment_Using_Focus_and_Context_Visualizations/links/6035079f299bf1cc26e617ab/Improving-Interpretability-for-Cyber-Vulnerability-Assessment-Using-Focus-and-Context-Visualizations.pdf",
+            "link": "https://ieeexplore.ieee.org/abstract/document/9347413"
+        },
+        {
             "title": "Automated Discovery of Cross-Plane Event-Based Vulnerabilities in Software-Defined Networking",
             "venue": "ndss",
             "year": 2020,

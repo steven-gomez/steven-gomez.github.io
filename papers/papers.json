@@ -91,7 +91,7 @@
     ],
     "conference_papers" : [
         {
-            "Interpreting a Mirage: Lessons from a Design Study Toward Synthetic Weather Visualizations",
+            "title": "Interpreting a Mirage: Lessons from a Design Study Toward Synthetic Weather Visualizations",
             "venue" : "ACM CHI Workshop on Human-Centered Explainable AI (HCXAI'22)",
             "year" : 2022,
             "authors": ["me", "Kevin K. Nam"],

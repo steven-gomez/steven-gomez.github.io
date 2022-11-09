@@ -96,7 +96,7 @@
             "year" : 2022,
             "authors": ["me", "Kevin K. Nam"],
             "link": "https://hcxai.jimdosite.com/hcxai-22-papers-and-videos/",
-            "pdf": "https://www.dropbox.com/s/95ghj04bro6svx4/HCXAI2022_paper_44.pdf?dl=0"
+            "pdf": "/papers/HCXAI2022_paper_44.pdf"
         },
         {
             "title": "Beyond Expertise and Roles: A Framework to Characterize the Stakeholders of Interpretable Machine Learning and their Needs",
